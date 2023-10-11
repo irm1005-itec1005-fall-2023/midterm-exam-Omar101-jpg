@@ -35,3 +35,109 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1faee;
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
+
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: stretch;
+}
+
+
+header {
+  background-color: #e63946;
+  color: #ac9393;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+
+main {
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+main .box-container {
+
+  padding: 12px;
+  width: 400px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #858585;
+  color: #f1faee;
+  border-radius: 20px;
+  box-shadow: #315a72 0px 8px 40px;
+}
+
+
+main h1 {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  color: #000000;
+}
+
+main h2 {
+  font-size: 2.5rem;
+  color: #f5f5f5;
+}
+
+main ul {
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+
+main ul li {
+  margin-bottom: 1rem;
+}
+
+main ul li a {
+  color: #f5f5f5;
+}
+
+main ul li a:hover {
+  color: #a8dadcff;
+}
+
+main ul li a:focus {
+  outline: 2px solid #102964;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.Price {
+  color: orangered;
+  font-size: 50px
+}
+
+
+
+
